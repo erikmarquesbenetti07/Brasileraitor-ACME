@@ -1,0 +1,85 @@
+unit uFutebol;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  ExtCtrls, Buttons, ComCtrls, StdCtrls;
+
+type
+  TfrmJogo = class(TForm)
+    PageControl1: TPageControl;
+    tbsJogo: TTabSheet;
+    shpCampo: TShape;
+    shpCentro: TShape;
+    shpMeioCampo: TShape;
+    shpGolTime2: TShape;
+    shpGolTime1: TShape;
+    spdTime1_2: TSpeedButton;
+    spdTime2_3: TSpeedButton;
+    spdTime2_1: TSpeedButton;
+    spdTime2_2: TSpeedButton;
+    spdTime1_3: TSpeedButton;
+    lblTime1: TLabel;
+    lblTime2: TLabel;
+    tbsResultado: TTabSheet;
+    lblResult1: TLabel;
+    lblResult2: TLabel;
+    edtGols1: TEdit;
+    edtGols2: TEdit;
+    Label1: TLabel;
+    grbMelhorTime1: TGroupBox;
+    lblMelhorTime1: TLabel;
+    grbMelhorTime2: TGroupBox;
+    lblMelhorTime2: TLabel;
+    grbPiorTime1: TGroupBox;
+    lblPiorTime1: TLabel;
+    grbPiorTime2: TGroupBox;
+    lblPiorTime2: TLabel;
+    grbTime1: TGroupBox;
+    cmbTime1: TComboBox;
+    grbTime2: TGroupBox;
+    cmbTime2: TComboBox;
+    spdIniciarPartida: TSpeedButton;
+    spbNovaPartida: TSpeedButton;
+    spdFimPartida: TSpeedButton;
+    spdTime1_1: TSpeedButton;
+    spdTime1_4: TSpeedButton;
+    spdTime1_5: TSpeedButton;
+    spdTime2_5: TSpeedButton;
+    spdTime2_4: TSpeedButton;
+    rdgTipo_Time1: TRadioGroup;
+    rdgTipo_Time2: TRadioGroup;
+    grbGols1: TGroupBox;
+    lblNormal_Time1: TLabel;
+    edtNormal_Time1: TEdit;
+    edtFalta_Time1: TEdit;
+    lblFalta_Time1: TLabel;
+    edtEscanteio_Time1: TEdit;
+    lblEscanteio_Time1: TLabel;
+    edtPenalti_Time1: TEdit;
+    lblPenalti_Time1: TLabel;
+    grbGols2: TGroupBox;
+    lblNormal_Time2: TLabel;
+    lblFalta_Time2: TLabel;
+    lblEscanteio_Time2: TLabel;
+    lblPenalti_Time2: TLabel;
+    edtNormal_Time2: TEdit;
+    edtFalta_Time2: TEdit;
+    edtEscanteio_Time2: TEdit;
+    edtPenalti_Time2: TEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmJogo: TfrmJogo;
+
+
+implementation
+
+{$R *.DFM}
+
+end.
